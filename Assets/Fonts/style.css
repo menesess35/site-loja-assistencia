@@ -1,0 +1,66 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?srgaye');
+  src:  url('fonts/icomoon.eot?srgaye#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?srgaye') format('truetype'),
+    url('fonts/icomoon.woff?srgaye') format('woff'),
+    url('fonts/icomoon.svg?srgaye#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-phone:before {
+  content: "\e909";
+}
+.icon-arrow-up:before {
+  content: "\e90b";
+}
+.icon-close:before {
+  content: "\e903";
+}
+.icon-facebook:before {
+  content: "\e904";
+}
+.icon-instagram:before {
+  content: "\e905";
+}
+.icon-mail:before {
+  content: "\e906";
+}
+.icon-map-pin:before {
+  content: "\e907";
+}
+.icon-menu:before {
+  content: "\e908";
+}
+.icon-whatsapp:before {
+  content: "\e90a";
+}
+.icon-youtube:before {
+  content: "\e90c";
+}
+.icon-cell_iphone_mobile_notch_phone_icon:before {
+  content: "\e900";
+}
+.icon-breaking_broken_cell_drop_phone_icon:before {
+  content: "\e901";
+}
+.icon-cell_hand_phone_touch_unlock_icon:before {
+  content: "\e902";
+}
